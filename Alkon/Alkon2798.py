@@ -14,4 +14,3 @@ for i in range(num):
         sum = max(sum, temp)
 
 print(sum)
-  

@@ -16,7 +16,7 @@ def printRecur(count):
 def printAns(count):
   for i in range(count):
     print("_" * (4 * (count - i - 1)) + "라고 답변하였지.")
-    
+
 for _ in range(0, N + 1):
   printRecur(_)
 
